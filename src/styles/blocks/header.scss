@@ -1,0 +1,46 @@
+.header {
+  min-height: 688px;
+  color: $color-primary-200;
+  background-image: url("../images/Header_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 10%;
+  padding-bottom: 10px;
+
+  &__menu {
+    min-height: 72px;
+    gap: 30px;
+  }
+
+  &__logo {
+    max-width: 139px;
+    max-height: 35px;
+  }
+
+  &__content {
+    padding: 118px 0 0;
+  }
+
+  &__content > h1 {
+    margin-bottom: 32px;
+    line-height: 68px;
+  }
+
+  &__description {
+    gap: 20px;
+    margin-bottom: 62px;
+  }
+
+  &__description > p {
+    padding: 10px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    width: 295px;
+
+    @media (max-width: 1170px) {
+      border-radius: 15px;
+      background-color: rgba(0 0 0 / 50%);
+    }
+  }
+}

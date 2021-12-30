@@ -1,0 +1,20 @@
+.main-content {
+  &__offers {
+    padding: 100px 0 120px;
+  }
+
+  &__questions {
+    margin: 120px 0 200px;
+  }
+
+  &__title {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    color: $color-secondary-100;
+  }
+}

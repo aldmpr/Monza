@@ -1,0 +1,23 @@
+.nav {
+  &__link :hover {
+    color: $color-primary-300;
+    fill: $color-primary-300;
+  }
+
+  &__link > li > a {
+    padding: 15px 0;
+    fill: $color-primary-200;
+  }
+
+  &__link :nth-child(2) {
+    margin: 0 40px;
+  }
+
+  &__link :nth-child(3) {
+    margin-right: 45px;
+  }
+
+  &__link :nth-child(4) {
+    margin-right: 30px;
+  }
+}

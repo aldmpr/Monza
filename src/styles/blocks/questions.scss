@@ -1,0 +1,67 @@
+.question {
+  border-bottom: 1px solid $color-secondary-400;
+
+  &__title {
+    padding-left: 24px;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: $color-primary-100;
+    width: 100%;
+    text-align: start;
+    padding-bottom: 24px;
+    transition: all $transition-duration;
+
+    &:focus {
+      box-shadow: none;
+      border-bottom: transparent;
+    }
+  }
+
+  &__text {
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150%;
+    color: $color-primary-100;
+    padding: 0 46px 24px 40px;
+    transition: all $transition-duration;
+
+    &-item {
+      margin-bottom: 8px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.accordion-button::after {
+  background-image: url("../images/plus.svg");
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.accordion-button:not(.collapsed) {
+  font-weight: bold;
+  color: $color-primary-300;
+  border-bottom: none;
+  background: transparent;
+  padding-left: 40px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/minus.svg");
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

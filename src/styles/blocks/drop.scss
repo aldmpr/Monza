@@ -1,0 +1,31 @@
+.drop {
+  &__btn {
+    width: 160px;
+    height: 48px;
+    padding: 0 16px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid $color-secondary-300;
+    transition: 300ms;
+
+    &:hover {
+      box-shadow: 0 0 30px 3px rgba(0 0 0 / 9%);
+    }
+  }
+
+  &__menu {
+    width: 100%;
+    padding: 16px;
+    border-radius: 15px;
+  }
+
+  &__item {
+    font-size: 13px;
+    line-height: 12px;
+
+    &:hover {
+      cursor: pointer;
+      color: $color-primary-300;
+    }
+  }
+}

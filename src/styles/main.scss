@@ -1,0 +1,19 @@
+@import "utils";
+@import "typography";
+@import "blocks/header";
+@import "blocks/container";
+@import "blocks/nav";
+@import "blocks/button";
+@import "blocks/current-offers";
+@import "blocks/sorting-aside";
+@import "blocks/drop";
+@import "blocks/questions";
+@import "blocks/footer";
+@import "blocks/form-subscription";
+@import "blocks/card";
+@import "blocks/main-content";
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: normal;
+}
